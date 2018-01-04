@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+</head>
+<style>
+table{
+	border:0;
+}
+td{
+	border:5px solid;
+	border-color:#D8D8D8;
+}
+td.one{
+	border-top-left-radius: 5px;
+	border-bottom-left-radius:5px;
+	border-color:#00BFFF;
+}
+td.two{
+	border:2px dashed #D8D8D8;
+	border-top:hidden;
+	border-left:hidden;
+	border-bottom:hidden;
+
+}
+td.three{
+	border-top-right-radius:5px;
+	border-bottom-right-radius: 5px;
+
+</style>
+<body>
+	<table cellspacing="0" cellpadding="20px">
+		<tr>
+			<td class="one" style="border-right:hidden;padding:0px 0px 0px 5px;">
+				<table>
+					<tr>
+						<td class="two" style="padding:15px 10px 15px 10px;">
+								A
+						</td>
+					</tr>
+				</table>
+			</td>
+			<td class="three" style="border-left:hidden;padding:10px;">
+				<table border="0" cellspacing="0" cellpadding="0">
+					<tr>
+						<td style="border:0;font-size:10px;" align="center">
+							DISCOUNT!
+						</td>
+					</tr>
+					<tr>
+						<td style="font-size:30px;border:0;">
+							<b>50.000<b>
+						</td>
+					</tr>
+				</table>
+			</td>
+		</tr>
+	</table>
+</body>
+</html>
