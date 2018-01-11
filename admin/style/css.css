@@ -1,0 +1,80 @@
+/* CSS Document */
+
+/* CSS Document */
+*{
+	margin:0;
+	padding:0;
+}
+.clear{
+	clear:both;
+}
+.wrapper{
+	width:100%;
+	height:auto;
+	margin:auto;
+	
+}
+.header{
+	width:100%;
+	height:200px;
+	
+}
+.menu{
+	width:100%;
+	height:80px;
+	margin-top:2px;
+	background:#C40C42;
+}
+.menu ul {
+	width:100%;
+	height:80px;
+	list-style:none;
+	padding-left:10px;
+}
+.menu ul li{
+	float:left;
+	line-height:80px;
+	text-align:center;
+	width:80px;
+	height:80px;
+}
+.menu ul li a{
+	text-decoration:none;
+	color:#fff;
+	font-size:50px;
+	display:block;
+}
+.menu ul li:hover{
+	background:#39F;
+	width: 100px;
+}
+
+.content{
+	width:100%;
+	height:auto;
+	
+	margin-top:2px;
+}
+.content_left{
+	width:28%;
+	height:auto;
+	border:1px solid #D9D9D9;
+	float:left;
+	margin-top:2px;
+}
+.content_right{
+	width:71%;
+	height:auto;
+	border:1px solid #D9D9D9;
+	float:right;
+	margin-top:2px;
+}
+
+.footer{
+	width:100%;
+	height:120px;
+	border:1px solid #000;
+	background:#C40C42;
+	margin-top:5px;
+}
+
